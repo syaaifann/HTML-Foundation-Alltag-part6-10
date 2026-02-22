@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Master Showcase HTML Dasar - Gabungan Seluruh Tag</title>
+  </head>
+  <body>
+    <h1>Mengenal HTML (H1)</h1>
+    <h2>Judul Tingkat 2 (H2)</h2>
+    <h3>Judul Tingkat 3 (H3)</h3>
+    <h4>Judul Tingkat 4 (H4)</h4>
+    <h5>Judul Tingkat 5 (H5)</h5>
+    <h6>Judul Tingkat 6 (H6)</h6>
+
+    <p>
+      Ini adalah contoh paragraf yang menggunakan <b>teks tebal (b)</b>,
+      <i>teks miring (i)</i>, dan <u>garis bawah (u)</u>. HTML adalah fondasi
+      utama dari sebuah halaman web.
+    </p>
+
+    <hr />
+    <h4>Pengaturan Perataan Teks (Atribut Align)</h4>
+    <p align="justify">
+      Paragraf ini menggunakan perataan <b>justify</b>. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua.
+    </p>
+    <p align="right">Paragraf ini menggunakan perataan <b>kanan (right)</b>.</p>
+    <p align="center">
+      Paragraf ini menggunakan perataan <b>tengah (center)</b>.
+    </p>
+
+    <hr />
+
+    <h4>Formatting dan Tag Semantik</h4>
+    <p>
+      Penting untuk diingat: <strong>Gunakan sabuk pengaman! (strong)</strong>.
+      Jangan lupa berangkat <em>sekarang juga (em)</em>.
+    </p>
+
+    <blockquote>
+      "Pendidikan bukan hanya tentang sekolah, tapi tentang menyerap ilmu
+      kehidupan." (Blockquote)
+    </blockquote>
+
+    <p>
+      Seorang anak berkata, <q>Dunia ini indah karena kau yang menulisnya</q>.
+      (Short Quote)
+    </p>
+
+    <p>
+      Kutipan di atas berasal dari buku <cite>The Clean Code Manifesto</cite>.
+      Kita juga belajar tentang <dfn>Ekosistem</dfn> (Definisi).
+    </p>
+
+    <p>
+      Layanan <abbr title="Hyper Text Markup Language">HTML</abbr> atau
+      <acronym title="Hyper Text Markup Language">HTML</acronym> sangat
+      membantu.
+    </p>
+
+    <p>Harga lama: <del>Rp500.000</del>, Harga baru: <ins>Rp750.000</ins>.</p>
+
+    <p>
+      Rumus Kimia: H<sub>2</sub>O (Subscript). <br />
+      Rumus Matematika: L = s<sup>2</sup> (Superscript).
+    </p>
+
+    <hr />
+
+    <h4>Macam-Macam List</h4>
+    <h5>Ordered List (Berurutan)</h5>
+    <ol>
+      <li>Siapkan bubuk kopi</li>
+      <li>Tuangkan air panas</li>
+      <li>
+        Aduk hingga merata
+        <ol>
+          <li>Pastikan gelas bersih (Nested List)</li>
+        </ol>
+      </li>
+    </ol>
+
+    <h5>Unordered List (Poin)</h5>
+    <ul>
+      <li>Buah Bit merah</li>
+      <li>Gandum Emas</li>
+      <li>Tinta Hitam murni</li>
+    </ul>
+
+    <h5>Definition List</h5>
+    <dl>
+      <dt>Kopi</dt>
+      <dd>Minuman hasil seduhan biji kopi.</dd>
+      <dt>Teh</dt>
+      <dd>Minuman dari daun Camellia Sinensis.</dd>
+    </dl>
+
+    <hr />
+
+    <h4>Data Dalam Tabel</h4>
+    <table border="2">
+      <tr>
+        <th>Nama (TH)</th>
+        <th>Kelas (TH)</th>
+        <th>Sekolah (TH)</th>
+      </tr>
+      <tr>
+        <td>Alif (TD)</td>
+        <td>1A</td>
+        <td>SD Lab School</td>
+      </tr>
+      <tr>
+        <td>Budi</td>
+        <td>1B</td>
+        <td>SD Lab School</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h4>Navigasi dan Tautan</h4>
+    <p>
+      <a href="https://github.com">Buka Github (Eksternal)</a> |
+      <a href="mailto:nexaatech86@gmail.com">Kirim Email</a> |
+      <a href="#Bab 6">Lompat ke Bab 6 (Internal ID)</a>
+    </p>
+
+    <hr />
+
+    <h4>Media Interaktif</h4>
+    <p>Menampilkan Gambar:</p>
+    <img
+      src="Asset/kapsulwaktu.jpg"
+      height="100px"
+      width="100px"
+      alt="Gambar Icon"
+      title="Foto Saya"
+      align="middle"
+    />
+
+    <p>Menampilkan Audio:</p>
+    <audio src="Asset/soundwormhole.mp3" controls loop preload="none">
+      Audio tidak didukung
+    </audio>
+
+    <p>Menampilkan Video:</p>
+    <video
+      src="Asset/wormhole.mp4"
+      poster="Asset/wormholepost.png"
+      height="200px"
+      controls
+      loop
+      preload="metadata"
+    >
+      Video tidak didukung
+    </video>
+
+    <hr />
+
+    <h4 id="Bab 6">Formulir Masukan</h4>
+    <form action="#">
+      <label>Nama:</label><br />
+      <input type="text" name="nama" /><br /><br />
+
+      <label>Password:</label><br />
+      <input type="password" name="pass" /><br /><br />
+
+      <label>Hobi:</label><br />
+      <input type="checkbox" name="hobi" value="masak" /> Memasak
+      <input type="checkbox" name="hobi" value="gambar" /> Menggambar
+      <br /><br />
+
+      <label>Pekerjaan:</label><br />
+      <select name="pekerjaan">
+        <option value="siswa">Siswa</option>
+        <option value="mahasiswa">Mahasiswa</option>
+        <option value="guru">Guru</option></select
+      ><br /><br />
+
+      <label>Unggah Foto:</label><br />
+      <input type="file" name="foto" /><br /><br />
+
+      <label>Apakah Anda yakin?</label><br />
+      <input type="radio" name="yakin" value="ya" /> Ya
+      <input type="radio" name="yakin" value="tidak" /> Tidak <br /><br />
+
+      <input type="button" value="Tombol Biasa" />
+      <input type="submit" value="Kirim Data" />
+    </form>
+
+    <br /><br />
+  </body>
+</html>
